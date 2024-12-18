@@ -1,0 +1,20 @@
+PtcgBP/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   └── styles/
+│   ├── components/
+│   │   └── common/
+│   ├── pages/
+│   ├── router/
+│   ├── store/
+│   ├── utils/
+│   ├── App.vue
+│   └── main.js
+├── .gitignore
+├── package.json
+├── README.md
+└── vite.config.js 

@@ -4,7 +4,7 @@ import CreateMatch from '../pages/CreateMatch.vue'
 import MatchHistory from '../pages/MatchHistory.vue'
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHashHistory('/PtcgBP/'),
   routes: [
     {
       path: '/',

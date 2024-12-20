@@ -378,7 +378,7 @@ const nextRound = () => {
 // 只保留一 onMounted
 onMounted(async () => {
   // 胜率数据
-  const data = await readExcelFile('/win_rates.xlsx')
+  const data = await readExcelFile('./win_rates.xlsx')
   if (data) {
     availableDecks.value = data.decks
     winRates.value = data.winRates

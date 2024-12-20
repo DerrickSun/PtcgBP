@@ -161,7 +161,7 @@ const deleteSelected = () => {
 
 onMounted(async () => {
   // 加载胜率数据
-  const data = await readExcelFile('/win_rates.xlsx')
+  const data = await readExcelFile('./win_rates.xlsx')
   if (data) {
     winRates.value = data.winRates
   }
